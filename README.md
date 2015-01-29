@@ -1,5 +1,25 @@
 #READ ME
 
+## Basic HTML
+- `<!DOCTYPE html>` (doctype)
+- `html`
+- `head`
+- `body`
+
+## Head-related
+- `meta` (self-closing)
+  - used for `charset="UTF-8"` attribute/value
+  - can be used for [many other purposes](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta)
+- `link` (self-closing)
+  - used to include external resources (i.e. css)
+- `script`
+  - used to include scripts (i.e. javascript)
+- `title`
+
+## Anchor
+- `a`
+  - frequently used with `href` attribute to create hyperlinks
+
 ## Header (h) tags
 - `h1`
 - `h2`
@@ -52,17 +72,29 @@
 - `small`
 - appropriate for 'legal' text, copyright info in footer
 
-## Code & Keyboard Input
-- `code`
-- `kbd`
+## Computer Input/Output
+- `code` (code sample)
+- `kbd` (keyboard input)
+- `samp` (computer output)
 
 ## Date & Time
 - `time`
 - remember to use `datetime` attribute
-- datetime should be formatted: YYYY-MM-DD HH:MM (2015-01-28 18:00)
+- datetime should be formatted: `YYYY-MM-DD HH:MM` (i.e. 2015-01-28 18:00)
 
 ## Simple Tables
 - `table`
 - `tr` (table row)
 - `th` (table header)
 - `td` (table data cell)
+
+## DO NOT USE
+Do not use the following tags as they are *presentational* and provided no context. Their default styles can be applied using CSS.
+- `b`
+- `hr`
+- `i`
+- `s`
+- `u`
+
+## Complete Reference
+- [Mozilla Developers Network: HTML element reference](https://developer.mozilla.org/en-US/docs/Web/HTML/Element)
