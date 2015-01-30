@@ -88,6 +88,48 @@
 - `th` (table header)
 - `td` (table data cell)
 
+## Complex Tables
+- in addition to the tags above
+- `caption` (table caption)
+- `colgroup` (column grouping)
+- `col` (column)
+- `thead` (table head)
+- `tbody` (table body)
+- `tfoot` (table footer)
+
+## Multimedia, Images & Graphics
+- `audio`
+- `img` (self-closing)
+- `figure`
+- `figcaption` (caption for `figure`)
+- `map` (imagemap)
+- `area` (clickable area in an `map`; self-closing)
+- `video`
+- `source` (specifices media source for `audio`, `video`)
+- `track` (provideds metadata for `audio`, `video`)
+
+## Structural
+- `header`
+- `nav`
+- `main`
+- `section`
+- `article`
+- `aside`
+- `footer`
+
+## Other
+- `cite` (citation of a creative work)
+- `data` (machine-readable content)
+- utilizes `value` attribute
+- `dfn` (a term to be defined)
+- `var` (variables in mathematical expressions)
+
+## Generic
+These tags have no meaning but are acceptable to use (if necessary) when applying CSS or Javascript.
+- `div` (block element)
+- `span` (inline element)
+
+
 ## DO NOT USE
 Do not use the following tags as they are *presentational* and provided no context. Their default styles can be applied using CSS.
 - `b`
